@@ -10,13 +10,12 @@ const CONFIG = {
     github: "zillako",
     instagram: "zilla_ko",
   },
-  projects: false,
-  // projects: [
-  //   {
-  //     name: `morethan-log`,
-  //     href: "https://github.com/zillako/morethan-log",
-  //   },
-  // ],
+  projects: [
+    // {
+    //   name: `morethan-log`,
+    //   href: "https://github.com/zillako/morethan-log",
+    // },
+  ],
   // blog setting (required)
   blog: {
     title: "Zilla's log",
