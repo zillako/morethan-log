@@ -10,7 +10,7 @@ const CONFIG = {
     github: "zillako",
     instagram: "zilla_ko",
   },
-  projects: null,
+  projects: false,
   // projects: [
   //   {
   //     name: `morethan-log`,
