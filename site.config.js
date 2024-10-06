@@ -2,7 +2,7 @@ const CONFIG = {
   // profile setting (required)
   profile: {
     name: "zillako",
-    image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
+    image: "/avatar_zilla.png", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "software engineer",
     bio: "I develop everything using typescript.",
     email: "devzillako@gmail.com",
@@ -32,7 +32,7 @@ const CONFIG = {
 
   // plugin configuration (optional)
   googleAnalytics: {
-    enable: false,
+    enable: true,
     config: {
       measurementId: process.env.NEXT_PUBLIC_GOOGLE_MEASUREMENT_ID || "",
     },
