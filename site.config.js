@@ -14,8 +14,8 @@ const CONFIG = {
   projects: null,
   // blog setting (required)
   blog: {
-    title: "Zilla's log",
-    description: "welcome to Zilla's log!",
+    title: "어느 평온한 개발자의 이야기",
+    description: "DevZilla의 기록",
     scheme: "system", // 'light' | 'dark' | 'system'
   },
 
@@ -23,7 +23,7 @@ const CONFIG = {
   link: "https://www.kojinyoung.com", // "https://zillako.vercel.app",
   since: 2024, // If leave this empty, current year will be used.
   lang: "ko-KR", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
-  ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
+  ogImageGenerateURL: "https://www.kojinyoung.com/og_image.jpg", // The link to generate OG image, don't end with a slash
 
   // notion configuration (required)
   notionConfig: {
