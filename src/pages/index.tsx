@@ -24,6 +24,7 @@ export const getStaticProps: GetStaticProps = async () => {
 const FeedPage: NextPageWithLayout = () => {
   const meta = {
     title: CONFIG.blog.title,
+    image: CONFIG.ogImageGenerateURL,
     description: CONFIG.blog.description,
     type: "website",
     url: CONFIG.link,
